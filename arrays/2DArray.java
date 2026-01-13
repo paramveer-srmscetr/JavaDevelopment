@@ -21,6 +21,15 @@ public class Main
    
    
    System.out.println(ls);
+
+		  System.out.println("traverse through the one by one element");
+   
+   for(List<Integer>ns:ls){
+       for(int k:ns){
+           System.out.println(k);
+       }
+   }
+   
    
 	}
 }
